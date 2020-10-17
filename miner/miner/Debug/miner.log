@@ -1,0 +1,9 @@
+﻿  圣晶石矿工.cpp
+D:\q\c\miner\miner\圣晶石矿工.cpp(83,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\miner\miner\圣晶石矿工.cpp(136,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\miner\miner\圣晶石矿工.cpp(190,22): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\q\c\miner\miner\圣晶石矿工.cpp(191,22): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\q\c\miner\miner\圣晶石矿工.cpp(199,40): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\q\c\miner\miner\圣晶石矿工.cpp(200,40): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\q\c\miner\miner\圣晶石矿工.cpp(278,10): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  miner.vcxproj -> D:\q\c\miner\Debug\miner.exe
