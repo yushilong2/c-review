@@ -21,6 +21,7 @@
 
 int main() //不能调用main函数,会形成死循环
 {
+	
 	//abs,labs,fabs 求绝对值
 	float a = fabs(-45.5);
 	printf("a=%f\n", a);
@@ -53,7 +54,7 @@ int main() //不能调用main函数,会形成死循环
 	printf("x=%d\n", x);
 
 	//系统函数
-	//(有点问题，明天解决)system("");
+	system("dir");
 
 	//调用函数
 	int c=add();
