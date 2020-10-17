@@ -126,7 +126,7 @@ void GameDraw()
 	//绘制背景
 	putimage(0, 120, &img[i_bk]);
 	//绘制角色背景颜色
-	setfillcolor(RGB(255, 208, 52));
+	setfillcolor(RGB(255, 245, 247));
 	solidrectangle(0, 0, WIN_WINDTH, 120);
 	//绘制角色
 	putimage(sole.x, sole.y, &img[i_soledown - 1], SRCAND);//
@@ -134,7 +134,7 @@ void GameDraw()
 	//绘制分数
 	char score[30] = "";
 	sprintf(score, "分数：%d", sole.coin);
-	settextcolor(WHITE);
+	settextcolor(BLACK);
 	setbkmode(TRANSPARENT);
 	settextstyle(50, 0, "楷体");
 	outtextxy(20, 20, score);
