@@ -1,0 +1,14 @@
+﻿  10.16.3.c
+D:\q\c\10.16.3\10.16.3\10.16.3.c(30,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\q\c\10.16.3\10.16.3\10.16.3.c(32,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\q\c\10.16.3\10.16.3\10.16.3.c(34,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\q\c\10.16.3\10.16.3\10.16.3.c(41,15): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\q\c\10.16.3\10.16.3\10.16.3.c(26,1): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\q\c\10.16.3\10.16.3\10.16.3.c(38,1): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\q\c\10.16.3\10.16.3\10.16.3.c(45,1): warning C4047: “初始化”:“time_t *”与“time_t”的间接级别不同
+  正在生成代码
+  1 of 11 functions ( 9.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  10.16.3.vcxproj -> D:\q\c\10.16.3\x64\Release\10.16.3.exe

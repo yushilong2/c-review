@@ -54,7 +54,7 @@ int main() //不能调用main函数,会形成死循环
 	printf("x=%d\n", x);
 
 	//系统函数
-	system("dir");
+	system("notepad");
 
 	//调用函数
 	int c=add();
