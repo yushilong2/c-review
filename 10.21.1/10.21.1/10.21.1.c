@@ -89,6 +89,13 @@ int main()
 	//指针数组：是一个数组，数组里面存的都是指针
 	//arr2是数组指针，指向一个数组
 
+	int* arr4[4] = { &a,&b,&c,NULL };
+	char* strarr[4] = { "HelloWorld","China","123456","Yellow" };
+	for (int i = 0;i < 4;i++)
+	{
+		printf("%s\n", strarr[i]);
+	}
+
 	int(*parr2)[5] = arr2;//现在就定义了一个数组指针,[]里是数组的大小
 	printf("arr2+0=%d\n", arr2 + 0);
 	printf("arr2+1=%d\n", arr2 + 1);//偏移5*4个字节
@@ -130,6 +137,7 @@ int main()
 	printf("*(\"HelloWorld\"+1)=%c\n", *("HelloWorld"+1));
 
 	//数组的下标访问和间接访问互相通用
+	printf("\"HelloWorld\"[0]=%c\n", "HelloWorld"[0]);
 
 	return 0;
 }
