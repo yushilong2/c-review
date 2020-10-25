@@ -90,7 +90,10 @@ int main()
 	//arr2是数组指针，指向一个数组
 
 	int* arr4[4] = { &a,&b,&c,NULL };
-	char* strarr[4] = { "HelloWorld","China","123456","Yellow" };
+
+	//两种方式的区别在哪
+	char str1[4][10] = { "HelloWorld","China","123456","Yellow" };//二维数组
+	char* strarr[4] = { "HelloWorld","China","123456","Yellow" };//一维数组，存的两个地址
 	for (int i = 0;i < 4;i++)
 	{
 		printf("%s\n", strarr[i]);
