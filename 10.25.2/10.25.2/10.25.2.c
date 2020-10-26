@@ -115,6 +115,15 @@ int main()
 	//show是一个函数
 	printf("show=%d\n", show);//打印的函数指针
 	//指针的类型是
+	void (*pShow)() = show;//pShow是一个函数指针
+	//调用show函数
+	(*pShow)();
+	//另一种写法
+	pShow();
+
+	void (*ps)(int* pa, int* pb);
+	ps(&a, &b);
+	printf("a=%d,b=%d,c=%d\n", a, b, c);
 
 	return 0;
 }
