@@ -64,6 +64,10 @@ int main()
 	struct Person* pPerson = &p1;
 	//pPerson->height<=>(*pPerson).age
 	psay(pPerson);
+	psay(&p1);
+
+	//传指针和传值得区别：参数传递的都是一份拷贝
+	//传指针的效率比较高，而且传指针可以修改，传值传的形参，实参不会改变
 
 	return 0;
 }
