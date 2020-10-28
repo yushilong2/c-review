@@ -95,6 +95,12 @@ struct Test2
 	int n;
 	short s;
 };
+//共同体，所有成员共用一个内存
+union TestUnion 
+{
+	char str[23];
+	int num;
+};
 
 //人说话
 void say(struct Person p) 
@@ -161,6 +167,19 @@ int main()
 	printf("%d\n", sizeof(struct Test2));//20
 	//str加char向12对齐，加int向16字节对齐，加short4字节，向20字节对齐
 	////对齐是2的倍数，有利于寻址的速度
+
+	union TestUnion tu;
+	tu.num = 123;
+	printf("%d\n", tu.str[0]);//123
+	printf("%d\n", tu.str[1]);//0
+	printf("%d\n", tu.str[2]);//0
+	printf("%d\n", tu.str[3]);//0
+	//栈内存
+	printf("%d\n", tu.num);
+	printf("%d\n", &tu.str);
+	printf("%d\n", &tu.num);
+	//遵循内存对齐
+	printf("%d\n", sizeof(union TestUnion));
 
 	return 0;
 }
