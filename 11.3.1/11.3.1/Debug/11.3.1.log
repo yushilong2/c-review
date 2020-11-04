@@ -1,2 +1,7 @@
-﻿  game.c
+﻿  11.3.1.c
+D:\q\c\11.3.1\11.3.1\11.3.1.c(61,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  game.c
+D:\q\c\11.3.1\11.3.1\game.c(50,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+D:\q\c\11.3.1\11.3.1\game.c(98): warning C4715: “IsWin”: 不是所有的控件路径都返回值
   11.3.1.vcxproj -> D:\q\c\11.3.1\Debug\11.3.1.exe

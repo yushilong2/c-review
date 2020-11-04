@@ -11,17 +11,49 @@ void menu()
 //算法实现
 void game() 
 {
+	int ret;
 	//数组-存放走出的棋盘信息
 	char board[ROW][COL] = {0};
 	//初始化
 	InitBoard(board, ROW, COL);
 	//打印棋盘
 	DisplayBoard(board,ROW,COL);
+	//下棋
+	while (1)
+	{
+		//玩家下棋
+		PlayerMove(board, ROW, COL);
+		//判断输赢
+		//四种状态：玩家赢，电脑赢，平局，继续
+		ret = IsWin(board, ROW, COL);
+		if (ret != 'c')
+		{
+			break;
+		}
+		//电脑下棋
+		ComputerMove(board, ROW, COL);
+		DisplayBoard(board, ROW, COL);
+		ret = IsWin(board, ROW, COL);
+		if (ret != 'c')
+		{
+			break;
+		}
+	}
+	switch (ret)
+	{
+	case 'x':
+		printf("玩家赢");break;
+	case 'o':
+		printf("电脑赢");break;
+	case 3:
+		printf("平局");break;
+	}
 }
 
 void test() 
 {
 	int input = 0;
+	srand((unsigned int)time(NULL));
 	do
 	{
 		menu();
