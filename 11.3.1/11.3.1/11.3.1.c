@@ -23,6 +23,7 @@ void game()
 	{
 		//玩家下棋
 		PlayerMove(board, ROW, COL);
+		DisplayBoard(board, ROW, COL);
 		//判断输赢
 		//四种状态：玩家赢，电脑赢，平局，继续
 		ret = IsWin(board, ROW, COL);
@@ -45,7 +46,7 @@ void game()
 		printf("玩家赢");break;
 	case 'o':
 		printf("电脑赢");break;
-	case 3:
+	case 'q':
 		printf("平局");break;
 	}
 }
