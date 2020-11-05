@@ -23,21 +23,21 @@ int main()
 
 	char *p = "abcdef";
 	//把常量字符串abcdef\0的首元素a的地址放进p里面
-	printf("%d\n", sizeof(p));
-	printf("%d\n", sizeof(p + 1));
-	printf("%d\n", sizeof(*p));
-	printf("%d\n", sizeof(p[0]));
-	printf("%d\n", sizeof(&p));
-	printf("%d\n", sizeof(&p + 1));
-	printf("%d\n", sizeof(&p[0] + 1));
+	printf("%d\n", sizeof(p));//计算指针变量p的大小：4/8
+	printf("%d\n", sizeof(p + 1));//p+1得到的是b的地址：4/8
+	printf("%d\n", sizeof(*p));//*p就是字符串的第一个字符a：1
+	printf("%d\n", sizeof(p[0]));//p[0]==*(p+0)=='a'：1
+	printf("%d\n", sizeof(&p));//取地址：4/8
+	printf("%d\n", sizeof(&p + 1));//跳过p：4/8
+	printf("%d\n", sizeof(&p[0] + 1));//a的地址加一，得到b的地址：4/8
 
-	/*printf("%d\n", sizeof(p));
-	printf("%d\n", sizeof(p + 1));
-	printf("%d\n", sizeof(*p));
-	printf("%d\n", sizeof(p[0]));
-	printf("%d\n", sizeof(&p));
-	printf("%d\n", sizeof(&p + 1));
-	printf("%d\n", sizeof(&p[0] + 1));*/
+	printf("%d\n", strlen(p));//从a开始数：6
+	printf("%d\n", strlen(p + 1));//从b开始数：5
+	//printf("%d\n", strlen(*p));// 传的是a，报错
+	//printf("%d\n", strlen(p[0]));//同上
+	printf("%d\n", strlen(&p));//p是a的地址，stren读的是p的地址，不知道什么时候有0：随机
+	printf("%d\n", strlen(&p + 1));//随机
+	printf("%d\n", strlen(&p[0] + 1));//&p[0]是第一个元素地址，加一，从b开始：5
 
 	return 0;
 }
