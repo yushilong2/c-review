@@ -10,28 +10,25 @@ void print(int arr[], int sz)
 	printf("\n");
 }
 
-int move(int arr[], int sz) 
+int move(int arr[], int sz)
 {
 	int left = 0;
 	int right = sz - 1;
 	while (left < right)
 	{
-		if (left < right)
+		//´Ó×ó±ßÕÒÅ¼Êý
+		while ((arr[left] % 2 == 1) && (left < right))
 		{
-			//´Ó×ó±ßÕÒÅ¼Êý
-			while (arr[left] % 2 == 1)
-			{
-				left++;
-			}
-			//´ÓÓÒ±ßÕÒÆæÊý
-			while (arr[right] % 2 == 0)
-			{
-				right--;
-			}
-			int tmp = arr[left];
-			arr[left] = arr[right];
-			arr[right] = tmp;
+			left++;
 		}
+		//´ÓÓÒ±ßÕÒÆæÊý
+		while ((arr[right] % 2 == 0) && (left < right))
+		{
+			right--;
+		}
+		int tmp = arr[left];
+		arr[left] = arr[right];
+		arr[right] = tmp;
 	}
 }
 
