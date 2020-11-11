@@ -23,8 +23,8 @@ int main()
 		printf("str3 and str4 are same\n");
 	else
 		printf("str3 and str4 are not same\n");
-	//str1 and str2 are same
-	//str3 and str4 are not same
+	//str1 and str2 are not same
+	//str3 and str4 are same
 
 	return 0;
 }
