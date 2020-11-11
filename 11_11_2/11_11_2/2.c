@@ -26,5 +26,15 @@ int main()
 	//str1 and str2 are not same
 	//str3 and str4 are same
 
+	int a[5] = { 5,4,3,2,1 };
+	//5 4 3 2 1
+	int* ptr = (int*)(&a + 1);//ptr指向数组后面
+	printf("%d,%d\n", *(a + 1), *(ptr - 1));//4,1
+
+	int aa[2][5] = { 10,39,8,7,6,5,4,3,2,1 };
+	int* ptr1 = (int*)(&aa + 1);//ptr1指向二维数组后面
+	int* ptr2 = (int*)(*(aa)+1);//ptr2指向第二行地址//*(aa+1)=aa[1]
+	printf("%d,%d\n", *(ptr1 - 1), *(ptr2 - 1));//1,6
+
 	return 0;
 }
