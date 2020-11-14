@@ -1,6 +1,17 @@
 #include<stdio.h>
 #include<string.h>
 #define MAX 1000
+
+enum Option
+{
+	EXIT,//0
+	ADD,//1
+	DEL,//2
+	SEARCH,//3
+	MODIFY,//4
+	SHOW,//5
+};
+
 //1.存放好友的信息
 struct PeoInfo
 {
@@ -17,6 +28,15 @@ struct Contact
 	struct PeoInfo data[MAX];//存放一个信息
 	int size;//记录当前已经有的元素个数
 };
-
+//初始化通讯录
 void InitContact(struct Contact* ps);
+//增加
 void AddContact(struct Contact* ps);
+//显示
+void ShowContact(const struct Contact* ps);
+//删除
+void DelContact(struct Contact* ps);
+//查找
+void SearchContact(struct Contact* ps);
+//修改
+void ModifyContact(struct Contact* ps);

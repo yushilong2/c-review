@@ -5,7 +5,7 @@ void menu()
 	printf("*********************************\n");
 	printf("*** 1.add               2.del ***\n");
 	printf("*** 3.search            4.modify*\n");
-	printf("*** 0.exit                    ***\n");
+	printf("*** 5.show              0.exit***\n");
 	printf("*********************************\n");
 }
 
@@ -23,16 +23,22 @@ void main()
 		scanf("%d", &input);
 		switch (input)
 		{
-		case 1:
-			AddContact(con);
+		case ADD:
+			AddContact(&con);
 			break;
-		case 2:
+		case DEL:
+			DelContact(&con);
 			break;
-		case 3:
+		case SEARCH:
+			SearchContact(&con);
 			break;
-		case 4:
+		case MODIFY:
+			ModifyContact(&con);
 			break;
-		case 0:
+		case SHOW:
+			ShowContact(&con);
+			break;
+		case EXIT:
 			printf("�˳�ͨѶ¼\n");
 			break;
 		default:
