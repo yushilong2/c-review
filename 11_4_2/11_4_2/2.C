@@ -9,5 +9,18 @@ int main()
 	{
 		printf("%s\n", strerror(errno));
 	}
+	else
+	{
+		int i=0;
+		for (i = 0;i < 10;i++)
+		{
+			printf("%d", *(p + i));
+		}
+	}
+	//释放空间
+	//free函数是用来释放动态开辟的空间
+	free(p);
+	p = NULL;
+
 	return 0;
 }
