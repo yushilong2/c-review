@@ -1,0 +1,20 @@
+﻿  contact.c
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(59,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(61,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(63,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(65,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(67,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(91,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(111,42): warning C4028: 形参 1 与声明不同
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(115,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(138,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(148,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(150,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(152,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(154,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\Contact_Dynamic\Contact_Dynamic\contact.c(156,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  test.c
+D:\q\c\Contact_Dynamic\Contact_Dynamic\test.c(51,2): warning C4098: “main”:“void”函数返回值
+D:\q\c\Contact_Dynamic\Contact_Dynamic\test.c(23,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+  Contact_Dynamic.vcxproj -> D:\q\c\Contact_Dynamic\Debug\Contact_Dynamic.exe
