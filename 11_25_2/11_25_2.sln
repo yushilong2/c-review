@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_25_2", "11_25_2\11_25_2.vcxproj", "{31367BB8-836C-45BE-83FD-8C60AC1862AA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "line", "line\line.vcxproj", "{54BC22A5-59B8-489B-9E32-371B27AE944A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "自绘按钮实现", "自绘按钮实现\自绘按钮实现.vcxproj", "{730F4E8B-B65E-4044-A96C-5ADD17D82BA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31367BB8-836C-45BE-83FD-8C60AC1862AA}.Debug|x64.ActiveCfg = Debug|x64
+		{31367BB8-836C-45BE-83FD-8C60AC1862AA}.Debug|x64.Build.0 = Debug|x64
+		{31367BB8-836C-45BE-83FD-8C60AC1862AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{31367BB8-836C-45BE-83FD-8C60AC1862AA}.Debug|x86.Build.0 = Debug|Win32
+		{31367BB8-836C-45BE-83FD-8C60AC1862AA}.Release|x64.ActiveCfg = Release|x64
+		{31367BB8-836C-45BE-83FD-8C60AC1862AA}.Release|x64.Build.0 = Release|x64
+		{31367BB8-836C-45BE-83FD-8C60AC1862AA}.Release|x86.ActiveCfg = Release|Win32
+		{31367BB8-836C-45BE-83FD-8C60AC1862AA}.Release|x86.Build.0 = Release|Win32
+		{54BC22A5-59B8-489B-9E32-371B27AE944A}.Debug|x64.ActiveCfg = Debug|x64
+		{54BC22A5-59B8-489B-9E32-371B27AE944A}.Debug|x64.Build.0 = Debug|x64
+		{54BC22A5-59B8-489B-9E32-371B27AE944A}.Debug|x86.ActiveCfg = Debug|Win32
+		{54BC22A5-59B8-489B-9E32-371B27AE944A}.Debug|x86.Build.0 = Debug|Win32
+		{54BC22A5-59B8-489B-9E32-371B27AE944A}.Release|x64.ActiveCfg = Release|x64
+		{54BC22A5-59B8-489B-9E32-371B27AE944A}.Release|x64.Build.0 = Release|x64
+		{54BC22A5-59B8-489B-9E32-371B27AE944A}.Release|x86.ActiveCfg = Release|Win32
+		{54BC22A5-59B8-489B-9E32-371B27AE944A}.Release|x86.Build.0 = Release|Win32
+		{730F4E8B-B65E-4044-A96C-5ADD17D82BA4}.Debug|x64.ActiveCfg = Debug|x64
+		{730F4E8B-B65E-4044-A96C-5ADD17D82BA4}.Debug|x64.Build.0 = Debug|x64
+		{730F4E8B-B65E-4044-A96C-5ADD17D82BA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{730F4E8B-B65E-4044-A96C-5ADD17D82BA4}.Debug|x86.Build.0 = Debug|Win32
+		{730F4E8B-B65E-4044-A96C-5ADD17D82BA4}.Release|x64.ActiveCfg = Release|x64
+		{730F4E8B-B65E-4044-A96C-5ADD17D82BA4}.Release|x64.Build.0 = Release|x64
+		{730F4E8B-B65E-4044-A96C-5ADD17D82BA4}.Release|x86.ActiveCfg = Release|Win32
+		{730F4E8B-B65E-4044-A96C-5ADD17D82BA4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {087044CA-C030-4AC0-9DC1-ABB62942D5C5}
+	EndGlobalSection
+EndGlobal
