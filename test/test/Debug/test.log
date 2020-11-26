@@ -1,4 +1,0 @@
-﻿  helloworld.c
-D:\q\c\test\test\helloworld.c(15,14): warning C4013: “func”未定义；假设外部返回 int
-D:\q\c\test\test\helloworld.c(16,14): warning C4013: “funs”未定义；假设外部返回 int
-  test.vcxproj -> D:\q\c\test\Debug\test.exe

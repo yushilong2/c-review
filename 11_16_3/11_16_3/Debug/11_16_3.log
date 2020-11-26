@@ -1,5 +1,0 @@
-﻿  3.c
-D:\q\c\11_16_3\11_16_3\3.c(5,19): warning C4013: “malloc”未定义；假设外部返回 int
-D:\q\c\11_16_3\11_16_3\3.c(15,6): warning C4013: “free”未定义；假设外部返回 int
-D:\q\c\11_16_3\11_16_3\3.c(13,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  11_16_3.vcxproj -> D:\q\c\11_16_3\Debug\11_16_3.exe

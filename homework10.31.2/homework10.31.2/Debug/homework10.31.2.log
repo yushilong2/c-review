@@ -1,3 +1,0 @@
-﻿  10.31.2.c
-D:\q\c\homework10.31.2\homework10.31.2\10.31.2.c(7,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  homework10.31.2.vcxproj -> D:\q\c\homework10.31.2\Debug\homework10.31.2.exe
