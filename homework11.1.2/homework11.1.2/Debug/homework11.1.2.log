@@ -1,0 +1,4 @@
+﻿  11.1.2.c
+D:\q\c\homework11.1.2\homework11.1.2\11.1.2.c(11,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\homework11.1.2\homework11.1.2\11.1.2.c(14,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  homework11.1.2.vcxproj -> D:\q\c\homework11.1.2\Debug\homework11.1.2.exe

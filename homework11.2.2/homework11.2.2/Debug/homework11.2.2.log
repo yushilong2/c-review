@@ -1,0 +1,4 @@
+﻿  11.2.2.c
+D:\q\c\homework11.2.2\homework11.2.2\11.2.2.c(56,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\q\c\homework11.2.2\homework11.2.2\11.2.2.c(51): warning C4716: “read”: 必须返回一个值
+  homework11.2.2.vcxproj -> D:\q\c\homework11.2.2\Debug\homework11.2.2.exe
